@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.bigborder{
+  height:100%;
+  margin:auto;
+  width:80%;
+  
+  
+}
+
+.inputborder{
+  height:50%;
+  width:40%;
+  /*border:solid 1px black;*/
+  float:left;
+}
+
+.allrecipeborder{
+  height:50%;
+  width:50%;
+  
+  float:right;
+  overflow:scroll;
+
+}
+
+img{
+  height:250px;
+  width:250px;
+  border-radius:25px;
+}
+
+.showrecipe{
+  height:40%;
+  width:100%;
+  float:left;
+  
+  box-shadow:5px 10px 8px #888888;
+  margin-top:5px;
+  margin-bottom:25px;
+}
+
+body{
+  font-family: cursive;
+}
+
+input{
+  height:30px;
+  width:300px;
+  margin-bottom:5px;
+}
+
+.easy{
+  background-color: thistle;
+  border-radius:25px;
+  height:50px;
+  border-style:none;
+  font-family: cursive;
+  
+
+}
+
+.each{
+  height:100px;
+  width:80%;
+  
+  box-shadow:5px 10px 8px #888888;
+  margin-bottom:20px;
+  border-radius:10px;
+ 
+}
+.each1{
+  font-size:23px;
+  color:tomato
+}
+
+.ing{
+  font-size:20px;
+  margin-left:2px;
+  margin: bottom 5px;
+  
+}
+
+.time{
+  background-color: thistle;
+  border-radius:25px;
+  height:50px;
+  width:100px;
+  border-style:none;
+  font-family: cursive;
+  margin-bottom:10px;
+}
